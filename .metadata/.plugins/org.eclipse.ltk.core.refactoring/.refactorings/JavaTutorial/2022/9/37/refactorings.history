@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SelectionSortDemo.java&apos; to &apos;JavaTutorial/src/sortingTutorials&apos;&#x0D;&#x0A;- Original project: &apos;JavaTutorial&apos;&#x0D;&#x0A;- Destination element: &apos;JavaTutorial/src/sortingTutorials&apos;&#x0D;&#x0A;- Original element: &apos;sortingTutorials.SelectionSortDemo.java&apos;" description="Copy compilation unit" destination="/src&lt;sortingTutorials" element1="/src&lt;sortingTutorials{SelectionSortDemo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1662281343484" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,38 @@
+package JavaInterviePrograms;
+
+public class PrimeNumber {
+
+	public static boolean isPrimeNumber(int num) {
+
+		if (num <= 1) {
+			return false;
+		}
+
+		for (int i = 2; i < num; i++) {
+			if (num % i == 0) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	public static void printPrimeNumupto(int lastNum) {
+		for (int i = 2; i <= lastNum; i++) {
+			if(isPrimeNumber(i)) {
+				System.out.println("Prime Number upto "+lastNum+" is-: "+i);
+			}
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("Checking 2 is prime Number" + isPrimeNumber(2));
+		System.out.println("Checking 3 is prime Number" + isPrimeNumber(3));
+		System.out.println("Checking 5 is prime Number" + isPrimeNumber(5));
+		System.out.println("Checking 10 is prime Number" + isPrimeNumber(10));
+		
+		printPrimeNumupto(20);
+	}
+
+}

@@ -1,0 +1,29 @@
+package JavaInterviePrograms;
+
+public class ToCheckPallindromNum {
+
+	public static void IsNumPallindrom(int num) {
+		int rev = 0, sum = 0;
+		int temp = num;
+
+		while (num > 0) {
+			rev = num % 10;
+			sum = (sum * 10) + rev;
+			num = num / 10;
+		}
+		if(temp == sum) {
+			System.out.println("Given number "+temp+" is a Pallindrome Number");
+		}
+		else {
+			System.out.println("Given number "+temp+" is not a Pallindrome Number");
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		IsNumPallindrom(151);
+		IsNumPallindrom(198);
+		IsNumPallindrom(2);
+	}
+
+}

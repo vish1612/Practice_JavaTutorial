@@ -1,0 +1,32 @@
+package JavaInterviePrograms;
+
+public class PrintNumWithoutLoop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("------1st Approach-----------");
+		printNum(1);
+		System.out.println("------2nd Approach-----------");
+		printNumRange(1, 20);
+	}
+
+	// 1st Approach with recursive fun
+	public static void printNum(int num) {
+		if (num <= 20) {
+			System.out.println(num);
+			num++;
+			printNum(num);
+		}
+	}
+
+	// 2nd Approach
+	public static void printNumRange(int startNum, int endNum) {
+		if (startNum <= endNum) {
+			System.out.println(startNum);
+			startNum++;
+			printNumRange(startNum, endNum);
+		}
+	}
+
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.ListIterator"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="java.util.Enumeration"/>
+<fullyQualifiedTypeName name="OOPsConcepts.CallByValAndCallByReference"/>
+<fullyQualifiedTypeName name="OOPsConcepts.InheritanceDemo_Vehical"/>
+<fullyQualifiedTypeName name="OOPsConcepts.InheritanceDemo_Car"/>
+<fullyQualifiedTypeName name="OOPsConcepts.InheriatnceDemo_BMW"/>
+<fullyQualifiedTypeName name="OOPsConcepts.InterfaceDemo_USBank"/>
+<fullyQualifiedTypeName name="OOPsConcepts.InterfaceDemo_BrazilBank"/>
+<fullyQualifiedTypeName name="OOPsConcepts.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Hashtable"/>
+<fullyQualifiedTypeName name="OOPsConcepts.ConstructorDemo"/>
+<fullyQualifiedTypeName name="OOPsConcepts.ThrowsKeywordException"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="OOPsConcepts.ThrowKeyword"/>
+<fullyQualifiedTypeName name="OOPsConcepts.AbstarctionDemo"/>
+<fullyQualifiedTypeName name="io.github.bonigarcia.wdm.webdriver.WebDriverBrowser"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="com.fasterxml.jackson.databind.annotation.JsonAppend.Prop"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="com.crm.qa.util.TestUtil"/>
+<fullyQualifiedTypeName name="org.checkerframework.checker.signature.qual.Identifier"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="com.crm.qa.base.TestBase"/>
+<fullyQualifiedTypeName name="com.crm.qa.testcases.LoginPageTest"/>
+<fullyQualifiedTypeName name="com.crm.qa.pages.LoginPage"/>
+<fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="org.testng.Assert"/>
+<fullyQualifiedTypeName name="com.crm.qa.pages.HomePage"/>
+</qualifiedTypeNameHistroy>

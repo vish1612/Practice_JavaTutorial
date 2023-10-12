@@ -1,0 +1,16 @@
+package JavaInterviePrograms;
+
+public class StringManipulation {
+
+	public static void main(String[] args) {
+		
+		String str = "The Range have started from here";
+		
+		System.out.println(str.length());
+		System.out.println(str.charAt(6));
+		System.out.println(str.indexOf("v"));
+		System.out.println(str.indexOf("v", str.indexOf("v")+1));
+		
+	}
+
+}

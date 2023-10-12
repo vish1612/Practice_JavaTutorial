@@ -1,0 +1,15 @@
+package JavaInterviePrograms;
+
+public class StringReverse_eachWord {
+
+	public static void main(String[] args) {
+		String s = "Vishal Raut";
+		//String s= "neevaNnoitamotuAfoavaJmuineleS";
+		String s1[] = s.split(" ");
+		String Rev = "";
+		String finalStr ="";
+		
+		System.out.println(s1);
+		}
+
+}

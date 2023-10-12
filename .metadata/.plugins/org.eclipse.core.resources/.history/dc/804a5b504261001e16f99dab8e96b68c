@@ -1,0 +1,26 @@
+package JavaInterviePrograms;
+
+public class StringReverse_eachWord {
+
+	public static void main(String[] args) {
+		String s = "Vishal Raut";
+		//String s= "neevaNnoitamotuAfoavaJmuineleS";
+		String[] s1 = s.split(" ");
+		String Rev = "";
+		String finalStr ="";
+		for(int i=0; i<=s1.length-1;i++)
+		{
+			//System.out.println(s1[i]);
+			for(int j=s1[i].length()-1;j>=0;j--) {
+				Rev = Rev + s1[i].charAt(j);
+			}
+			System.out.println(Rev);
+			
+		}
+		finalStr = finalStr + Rev;
+		System.out.println("Reverse Word-: "+ finalStr);
+		//System.out.println(""+s1);
+		
+	}
+
+}

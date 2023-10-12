@@ -1,0 +1,22 @@
+package JavaInterviePrograms;
+
+public class ArmstrongNumber {
+
+	public static void IsNumberArmstrong(int num) {
+		int temp = num;
+		int sum =0;
+		int i = 0;
+		int cube=0;
+		
+		while(num>0) {
+			i = num % 10;
+			num = num/10;
+			cube = cube + (i*i*i);
+		}
+		System.out.println(+cube);
+	}
+	public static void main(String[] args) {
+		IsNumberArmstrong(153);
+	}
+
+}

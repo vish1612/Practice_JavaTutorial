@@ -1,0 +1,21 @@
+package JavaInterviePrograms;
+
+public class StringManipulation {
+
+	public static void main(String[] args) {
+
+		String str = "The Ranges have started here";
+
+		System.out.println(str.length());
+		System.out.println(str.charAt(6));
+		System.out.println(str.indexOf("v"));
+		System.out.println(str.indexOf("a", str.indexOf("a") + 1));
+		System.out.println(str.indexOf("Hello")); // if String is not available then it shows -1 not any exception or
+													// error
+		System.out.println(str.indexOf("have"));
+		System.out.println(str.indexOf("s", str.indexOf("s",str.indexOf("s")+1) + 1));
+		
+
+	}
+
+}

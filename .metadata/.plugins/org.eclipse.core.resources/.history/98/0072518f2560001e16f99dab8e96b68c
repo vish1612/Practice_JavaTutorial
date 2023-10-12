@@ -1,0 +1,28 @@
+package JavaInterviePrograms;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class FindDuplicateWords {
+
+	public static void main(String[] args) {
+		findDuplicateWord("Automation of java is not simple Java is core language in automation");
+	}
+	
+	public static void findDuplicateWord(String inputString) {
+		
+		String words[]= inputString.split(" ");
+		Map<String, Integer> wordcount = new HashMap<String, Integer>();
+		
+		for(String word : words) {
+			if(wordcount.containsKey(word)) {
+				wordcount.put(word.toLowerCase(), wordcount.get(word)+1);
+			}
+			else {
+				wordcount.put(word, 1);
+			}
+		}
+		System.out.println(wordcount);
+	}
+
+}
